@@ -1,0 +1,699 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: Oswald, sans-serif;
+    font-size: 45px;
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-size: 55px;
+}
+
+h4 {
+    font-size: 24px;
+    color: black;
+}
+
+p {
+    line-height: 20px;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.point {
+    color: #fda54e;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Header */
+
+header {
+    height: 120px;
+}
+
+header h1 {
+    float:left;
+    margin-top: 32px;
+}
+
+header h1 a:hover {
+    color: #fda54e;
+}
+
+header nav {
+    float: right;
+    margin-top: 64px;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+header nav ul li:hover {
+    text-decoration:underline #ffc25b 2px;
+}
+
+
+
+/* Test de connaissances */
+
+#Test {
+    height: 580px;
+    margin-top: 20px;
+    background: url(Images/Sweet\ Vertigo\ -\ Cyril\ Rolando.jpg) center no-repeat;
+}
+
+
+#Test h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 120px 0 40px 0;
+    margin-bottom: 20px;
+}
+
+.button-1 {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: #fda54e;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.button-1:hover {
+    background: #ffc25b;
+}
+
+/* Parties */
+
+#Parties ul {
+    margin: 50px 0;
+}
+
+#Parties ul li {
+    width: 300px;
+    float : left;
+    padding-top: 80px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#Parties h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#Parties p {
+    margin-bottom: 20px;
+}
+
+#Littérature {
+    background: url(Images/Books.png) no-repeat top center;
+    background-size: 25%;
+}
+
+#Langue {
+    background: url(Images/Grammar.png) no-repeat top center;
+    background-size: 25%;
+}
+
+#Cartes-mentales {
+    background: url(Images/Mind\ Map.png) no-repeat top center;
+    background-size: 25%;
+}
+
+/* Citations */
+
+#Citation {
+    /* background-color: rgba(183, 183, 183, 0.467); */ /*Ancienne couleur BG*/
+    background: linear-gradient(to right, #ffdab5, #fe9125);
+    padding: 60px 0;
+}
+
+#Citation article {
+    width: 460px;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+    display : flex;
+    flex-direction: column;
+    min-height: 270px;
+}
+
+#Citation article:first-child {
+    margin-right: 20px;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.9);
+    min-height: 270px;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+article h4 {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.button-2 {
+    color: white;
+    background-color: #fda54e;
+    padding: 6px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-2:hover {
+    background-color: #ffc25b;
+}
+
+/* Contact */
+
+#Contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#Contact h3 {
+    font-size: 30px;
+    margin: 0 auto 20px auto;
+    border-bottom: 2px solid #ffc25b;
+    width: 40%;
+    padding-bottom: 20px;
+}
+
+#Contact p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#Contact form {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#Contact label {
+    margin-right: 10px;
+}
+
+#Contact input {
+    margin-right: 10px;
+}
+
+#Contact input[type="text"] {
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+.button-3 {
+    color: white;
+    background-color: #fda54e;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px;
+}
+
+.button-3:hover {
+    background-color: #ffc25b;
+    border-radius: 3px;
+}
+
+/* Footer */
+
+footer {
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.Copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+/* Littérature html */
+
+#CoursLittérature {
+    margin-top: 20px;
+}
+
+.box {
+    width: calc(33.33% - (10px / 3));
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position : relative;
+    transform: 0.3s ease-in-out;
+    z-index: 0;
+    cursor: pointer;
+    gap: 20px;
+}
+
+.SpaceTop {
+    margin-top: 40px;
+}
+
+.box a{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    z-index: 2;
+    background-color: #fda54e;
+    border-radius: 5px;
+    padding: 2px 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#MenuDéroulant {
+    display: block;
+    width: 150px;
+    height: 40px;
+    background: #fda54e;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px; /* Ligne qui ne change rien*/
+    text-align: center;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+}
+
+.SpaceBottom {
+    margin-bottom: 60px;
+}
+
+/* Langue html */
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;
+    margin-bottom: 20px;
+}
+
+.container .card {
+    position: relative;
+    width: 500px;
+    height: 230px;
+    padding: 15px;
+    background: linear-gradient(to right, #f3b272, #fe9125);
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.container .card h1 {
+    z-index: 99;
+    position: absolute;
+    bottom: 25px;
+    right: 130px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.2s ease;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.container .card p {
+    z-index: 99;
+    position: absolute;
+    bottom: 30px;
+    right: 130px;
+    width: 150px;
+    color: white;
+    opacity: 0;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+    font-weight: bolder;
+}
+
+.container .card span {
+    z-index: 99;
+    position: absolute;
+    top: 60px;
+    right: 35px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-rl;
+    transition: 0.2s ease;
+    opacity: 0.7;
+}
+
+.container .card .pic {
+    z-index: 100;
+    width: 395px;
+    height: 200px;
+    background-image: url(Images/Cygne\ noir.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+}
+
+.container .card button {
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.container .card:hover button {
+    transform: scale(17);
+    opacity: 0.5;
+}
+
+.container .card:hover h1 {
+    bottom: 150px;
+    right: 30px;
+}
+
+.container .card:hover p {
+    opacity: 1;
+    right: 60px;
+}
+
+.container .card:hover span {
+    opacity: 0;
+    top: 80px;
+}
+
+.container .card:hover .pic {
+    filter: grayscale(0);
+    width: 470px;
+}
+
+.grammar-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.grammar-box {
+    display: none;
+    background: linear-gradient(to left, #f3b272, #fe9125);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.grammar-box a {
+    color: white;
+}
+
+.grammar-box:hover {
+    background: linear-gradient(45deg, #f3b272, #fe9125);
+    transform: scale(1.1);
+}
+
+.container2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;
+    margin-bottom: 20px;
+}
+
+.container2 .card2 {
+    position: relative;
+    width: 500px;
+    height: 230px;
+    padding: 15px;
+    background: linear-gradient(to right, #f3b272, #fe9125);
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.container2 .card2 h1 {
+    z-index: 99;
+    position: absolute;
+    bottom: 25px;
+    right: 130px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.2s ease;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.container2 .card2 p {
+    z-index: 99;
+    position: absolute;
+    bottom: 30px;
+    right: 130px;
+    width: 150px;
+    color: white;
+    opacity: 0;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+    font-weight: bolder;
+}
+
+.container2 .card2 span {
+    z-index: 99;
+    position: absolute;
+    top: 60px;
+    right: 35px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-rl;
+    transition: 0.2s ease;
+    opacity: 0.7;
+}
+
+.container2 .card2 .pic2 {
+    z-index: 100;
+    width: 395px;
+    height: 200px;
+    background-image: url(Images/Clock.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+}
+
+.container2 .card2 button {
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: #444;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.container2 .card2:hover button {
+    transform: scale(17);
+    opacity: 0.5;
+}
+
+.container2 .card2:hover h1 {
+    bottom: 150px;
+    right: 30px;
+}
+
+.container2 .card2:hover p {
+    opacity: 1;
+    right: 60px;
+}
+
+.container2 .card2:hover span {
+    opacity: 0;
+    top: 80px;
+}
+
+.container2 .card2:hover .pic2 {
+    filter: grayscale(0);
+    width: 470px;
+}
+
+.conjugaison-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.conjugaison-box {
+    display: none;
+    background: linear-gradient(to left, #f3b272, #fe9125);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.conjugaison-box a {
+    color: white;
+}
+
+.conjugaison-box:hover {
+    background: linear-gradient(45deg, #f3b272, #fe9125);
+    transform: scale(1.1);
+}
+
+/* Bottom */
+
+.custom-shape-divider-bottom {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: 60px;
+}
+
+.custom-shape-divider-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+}
+
+.custom-shape-divider-bottom .shape-fill {
+    fill: #FDA54E;
+}
+
+.custom-shape-divider-bottom-1685028384 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-top: 60px;
+}
+
+.custom-shape-divider-bottom-1685028384 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+}
+
+.custom-shape-divider-bottom-1685028384 .shape-fill {
+    fill: #FDA54E;
+}

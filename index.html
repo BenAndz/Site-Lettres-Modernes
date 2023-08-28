@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+       <link href="styles.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+       <title>Littréamont</title>
+       <link rel="shortcut icon" href="Images/Bilbiothèque.png" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="wrapper">
+                <h1><a href="Index.html">Littréamont<span class="point">.</span></a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="littérature.html">Littérature</a></li>
+                        <li><a href="langue.html">Langue</a></li>
+                        <li><a href="#Cartes-mentales">Cartes mentales</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <hr style="border-top: 3px solid #fda54e;">
+        <hr style="border-top: 3px solid #fda54e; margin-top: 5px; margin-bottom: 50px;">
+
+        <section id="Test">
+            <div class="wrapper">
+                <h2>Testez vos<br><strong>connaissances</strong></h2>
+                <a href="#" class="button-1">Lancer le test</a>
+            </div>
+        </section>
+
+        <section id="Parties">
+            <div class="wrapper">
+                <ul>
+                    <li id="Littérature">
+                        <h4><a href="Littérature.html" class="button-2">Littérature</a></h4>
+                        <p>Retrouvez de l'histoire et de la théorie littéraire, des textes et des commentaires.</p>
+                    </li>
+                    <li id="Langue">
+                        <h4><a href="Langue.html" class="button-2">Langue</a></h4>
+                        <p>Retrouvez des cours de grammaire, d'orthographe, de conjugaison, d'énonciation et de stylistique.</p>
+                    </li>
+                    <li id="Cartes-mentales">
+                        <h4><a href="#" class="button-2">Cartes mentales</a></h4>
+                        <p>Retrouvez des cartes mentales sur les différentes notions abordées en littérature et en langue.</p>
+                    </li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Citation">
+            <div class="wrapper">
+                <article style="background-image: url(Images/A\ safe\ place\ where\ you\ can\ go\ -\ Cyril\ Rolando.jpg); background-size: cover; background-repeat: no-repeat;">
+                    <div class="overlay">
+                        <h4>Citations littéraires</h4>
+                        <p id="CitationLittéraire"><small>"L'art de jouir est pour elle celui des privations", Rousseau, La Nouvelle Héloïse.</small></p>
+                        <div id="BoutonLittéraire" class="button-2">Une autre citation</div>
+                    </div>
+                </article>
+                <article style="background-image: url(Images/Philosophie.jpg); background-size: cover; background-repeat: no-repeat;">
+                    <div class="overlay">
+                        <h4>Citations philosophiques</h4>
+                        <p id="CitationPhilo"><small>« Il y a des choses qui dépendent de nous et d'autres qui ne dépendent pas de nous. », Epictète.</small></p>
+                        <div id="BoutonPhilo" class="button-2">Une autre citation</div>
+                    </div>
+                </article>
+                <div class="clear"></div>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <div class="wrapper">
+                <h3>Contactez-moi</h3>
+                <p>Si vous rencontrez des problèmes ou bien si vous avez des questions concernant le contenu des cours, n'hésitez pas à me contacter en renseignant votre nom et votre adresse mail.</p>
+                <form>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" placeholder="Votre nom">
+                    <label for="mail">Email</label>
+                    <input type="text" id="mail" placeholder="Votre email">
+                    <input type="submit" value="Envoyer" class="button-3">
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="wrapper">
+                <h1>Littréamont<span class="point">.</span></h1>
+                <div class="Copyright">
+                    Copyright © 2023. Tous droits réservés.
+                </div>
+            </div>
+        </footer>
+
+        <script src="jsIndex.js"></script>
+    </body>
+
+</html>
