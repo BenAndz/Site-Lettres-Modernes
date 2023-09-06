@@ -1,4 +1,4 @@
-# Site-lettres-modernes
+# Site-lettres-modernes (optimisé pour les ordinateurs de bureau uniquement)
 
 Lien pour naviguer sur le site : https://benandz.github.io/Site-lettres-modernes/index.html
 
